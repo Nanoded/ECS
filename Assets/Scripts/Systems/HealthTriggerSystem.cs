@@ -4,30 +4,30 @@ using Unity.Jobs;
 using Unity.Physics.Systems;
 using Unity.Burst;
 
-public class HealthTriggerSystem : JobComponentSystem
+public class HealthTriggerSystem //: JobComponentSystem
 {
     private BuildPhysicsWorld _buildPhysicsSystem;
     private StepPhysicsWorld _stepPhysicsSystem;
     private EndSimulationEntityCommandBufferSystem _commandBufferSystem;
 
 
-    protected override void OnCreate()
-    {
-        _buildPhysicsSystem = World.GetExistingSystem<BuildPhysicsWorld>();
-        _stepPhysicsSystem = World.GetExistingSystem<StepPhysicsWorld>();
-        _commandBufferSystem = World.GetExistingSystem<EndSimulationEntityCommandBufferSystem>();
-    }
-    protected override JobHandle OnUpdate(JobHandle inputDeps)
-    {
-        HealthTriggerJob triggerJob = new HealthTriggerJob();
-
-        triggerJob.HealthComponentGroup = GetComponentDataFromEntity<HealthComponent>();
-        triggerJob.HealthKitGroup = GetComponentDataFromEntity<HealthKitComponent>();
-        JobHandle jobHandle = triggerJob.Schedule(_stepPhysicsSystem.Simulation, ref _buildPhysicsSystem.PhysicsWorld, inputDeps);
-        _commandBufferSystem.AddJobHandleForProducer(jobHandle);
-        jobHandle.Complete();
-        return jobHandle;
-    }
+    // protected override void OnCreate()
+    // {
+    //     _buildPhysicsSystem = World.GetExistingSystem<BuildPhysicsWorld>();
+    //     _stepPhysicsSystem = World.GetExistingSystem<StepPhysicsWorld>();
+    //     _commandBufferSystem = World.GetExistingSystem<EndSimulationEntityCommandBufferSystem>();
+    // }
+    // protected override JobHandle OnUpdate(JobHandle inputDeps)
+    // {
+    //     HealthTriggerJob triggerJob = new HealthTriggerJob();
+    //
+    //     triggerJob.HealthComponentGroup = GetComponentDataFromEntity<HealthComponent>();
+    //     triggerJob.HealthKitGroup = GetComponentDataFromEntity<HealthKitComponent>();
+    //     JobHandle jobHandle = triggerJob.Schedule(_stepPhysicsSystem.Simulation, ref _buildPhysicsSystem.PhysicsWorld, inputDeps);
+    //     _commandBufferSystem.AddJobHandleForProducer(jobHandle);
+    //     jobHandle.Complete();
+    //     return jobHandle;
+    // }
 
 
     [BurstCompile]

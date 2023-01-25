@@ -2,7 +2,7 @@ using Unity.Entities;
 using Unity.Transforms;
 using UnityEngine;
 
-public class LookAtPlayer : SystemBase
+public partial class LookAtPlayer : SystemBase
 {
     private Transform _playerTransform;
 

@@ -6,7 +6,7 @@ using Unity.Transforms;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerInputSystem : SystemBase
+public partial class PlayerInputSystem : SystemBase
 {
     private InputAction _inputAction;
     private float2 _movement;

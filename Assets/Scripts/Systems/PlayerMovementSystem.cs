@@ -2,7 +2,7 @@ using Unity.Entities;
 using Unity.Transforms;
 using Unity.Mathematics;
 
-public class PlayerMovementSystem : SystemBase
+public partial class PlayerMovementSystem : SystemBase
 {
     private float _timeAfterStartJerk;
 

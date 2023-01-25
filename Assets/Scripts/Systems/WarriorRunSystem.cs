@@ -4,7 +4,7 @@ using Unity.Physics;
 using Unity.Transforms;
 using UnityEngine;
 
-public class WarriorRunSystem : SystemBase
+public partial class WarriorRunSystem : SystemBase
 {
     private Vector3 _target;
     private float3 _direction;

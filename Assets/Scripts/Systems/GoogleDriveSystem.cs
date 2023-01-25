@@ -6,7 +6,7 @@ using UnityGoogleDrive.Data;
 using System.Text;
 using UnityGoogleDrive;
 
-public class GoogleDriveSystem : SystemBase
+public partial class GoogleDriveSystem : SystemBase
 {
     private InputAction _loadButton;
 

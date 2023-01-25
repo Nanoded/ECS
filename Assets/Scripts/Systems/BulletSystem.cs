@@ -3,7 +3,7 @@ using Unity.Mathematics;
 using Unity.Physics;
 using UnityEngine;
 
-public class BulletSystem : SystemBase
+public partial class BulletSystem : SystemBase
 {
     private EndSimulationEntityCommandBufferSystem _commandBufferSystem;
     private EntityCommandBuffer _commandBuffer;

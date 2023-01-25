@@ -1,7 +1,7 @@
 using Unity.Entities;
 using UnityEngine;
 
-public class BehaviourSystem : SystemBase
+public partial class BehaviourSystem : SystemBase
 {
     private float _timer;
     private float _maxPriority = 0;

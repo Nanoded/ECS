@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 
-public class LookForwardSystem : SystemBase
+public partial class LookForwardSystem : SystemBase
 {
     protected override void OnUpdate()
     {

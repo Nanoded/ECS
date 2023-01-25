@@ -1,7 +1,7 @@
 using Unity.Entities;
 using UnityEngine;
 
-public class DestroySystem : SystemBase
+public partial class DestroySystem : SystemBase
 {
     private EntityCommandBuffer _commandBuffer;
     private EndSimulationEntityCommandBufferSystem _endSimulationBuffer;

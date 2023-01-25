@@ -3,7 +3,7 @@ using Unity.Mathematics;
 using Unity.Physics;
 using UnityEngine;
 
-public class ThrowingWeaponSystem : SystemBase
+public partial class ThrowingWeaponSystem : SystemBase
 {
     private Vector3 _targetPosition;
     private EndSimulationEntityCommandBufferSystem _commandBufferSystem;

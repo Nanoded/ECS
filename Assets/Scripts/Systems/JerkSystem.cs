@@ -5,7 +5,7 @@ using Unity.Entities;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class JerkSystem : SystemBase
+public partial class JerkSystem : SystemBase
 {
     private InputAction _jerkAction;
     private float _jerkInput;
