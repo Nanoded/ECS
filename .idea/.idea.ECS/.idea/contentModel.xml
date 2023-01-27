@@ -16,6 +16,7 @@
             </e>
           </e>
         </e>
+        <e p="Controller.cs" t="Include" />
         <e p="Joystick Pack" t="Include">
           <e p="Scripts" t="Include">
             <e p="Base" t="Include">
@@ -996,6 +997,7 @@
             <e p="LookForwardSystem.cs" t="Include" />
             <e p="PlayerInputSystem.cs" t="Include" />
             <e p="PlayerMovementSystem.cs" t="Include" />
+            <e p="RaycastSystem.cs" t="Include" />
             <e p="ThrowingWeaponSystem.cs" t="Include" />
             <e p="WarriorRunSystem.cs" t="Include" />
           </e>

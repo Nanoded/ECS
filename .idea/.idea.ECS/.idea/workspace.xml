@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e752e92-eb90-4293-a592-e5b8fb2a3762" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/BehaviourSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/BehaviourSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/DestroySystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/DestroySystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECS/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECS/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Controller.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Controller.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Controller.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Controller.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PhysicsCategoryNames.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PhysicsCategoryNames.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/GoogleDriveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/GoogleDriveSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/HealthTriggerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/HealthTriggerSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/JerkSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/JerkSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/LookAtPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/LookAtPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/LookForwardSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/LookForwardSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/ThrowingWeaponSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/ThrowingWeaponSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/WarriorRunSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/WarriorRunSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +22,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/DestroySystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/RaycastSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/HealthTriggerSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviours/GoogleDrive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/PlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.51.1-preview.21/Unity.Physics.Hybrid/Assets/PhysicsCategoryNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.51.1-preview.21/Unity.Entities/Stubs/Unity/Debug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/MovementComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/GoogleDriveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.51.1-preview.21/Unity.Physics/Dynamics/Simulation/ITriggerEventsJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/LookAtPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/WarriorRunSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/ThrowingWeaponSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/JerkSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/LookForwardSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -39,15 +45,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/BehaviourSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/BulletSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DestroySystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GoogleDriveSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/JerkSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/LookAtPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/LookForwardSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerMovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ThrowingWeaponSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/WarriorRunSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/HealthTriggerSystem.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.51.1-preview.21/Unity.Physics/Dynamics/Simulation/ITriggerEventsJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/LookForwardSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GoogleDriveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/RaycastSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/RaycastSystem.cs" />
       </list>
     </option>
   </component>
@@ -83,10 +92,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674678474380</updated>
-      <workItem from="1674678493730" duration="372000" />
+      <workItem from="1674678493730" duration="948000" />
+      <workItem from="1674731014399" duration="2395000" />
+      <workItem from="1674748265725" duration="10405000" />
     </task>
     <servers />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

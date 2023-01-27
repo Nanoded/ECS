@@ -18,8 +18,8 @@ MonoBehaviour:
   - Static
   - Player
   - Bullet
-  - 
-  - 
+  - Raycast
+  - Ground
   - 
   - 
   - 
